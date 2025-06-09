@@ -45,7 +45,7 @@ class EmployeeController extends Controller
 
         } catch (\Exception $th) {
 
-            return response()->json(['message' => 'Internal error'], 500);
+            return response()->json(['message' => $th->getMessage()], 500);
         }
     }
 

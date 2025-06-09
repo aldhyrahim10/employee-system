@@ -18,7 +18,7 @@
 
             <li class=" navigation-header"><span>Menus</span>
             </li>
-            <li class=" nav-item"><a href="#"><i class="feather icon-monitor"></i><span class="menu-title"
+            <li class=" nav-item"><a href="{{route('home')}}"><i class="feather icon-monitor"></i><span class="menu-title"
                         data-i18n="Email">Dashboard</span></a>
             </li>
             <li class=" nav-item"><a href="{{ route('employee') }}"><i class="feather icon-users"></i><span class="menu-title"
